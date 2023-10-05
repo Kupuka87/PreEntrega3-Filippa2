@@ -1,0 +1,33 @@
+/*inicio formularios */
+
+form {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    padding: 30px;
+    background-image: url(/multimedia/consultas.jpg);
+    background-position: center;
+    color: white;
+  
+    input, textarea {
+      width: 100%;
+      font-size: 25px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 4px solid black;
+    }
+  
+    input::placeholder, textarea::placeholder {
+      color: white;
+    }
+  
+    #enviar {
+      background-color: brown;
+      font-size: 25px;
+      border: 4px solid black;
+      padding: 10px;
+    }
+  }
+  
+  /*fin formularios*/
+  

@@ -1,0 +1,204 @@
+/*Inicia Guias Croquis*/
+.m_croquis {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/simbologia1.jpg);
+  color: white;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.modelo_croquis {
+  background-color: rgba(12, 12, 12, 0.37);
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #222;
+}
+
+/*Fin Guias Croquis*/
+/*Inicia Guias Simbolos*/
+.m_simbolos {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/simbolgia2.jpg);
+  color: white;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.ejemplo_simbolos {
+  background-color: rgba(12, 12, 12, 0.37);
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #222;
+}
+
+/*Fin Guias Simbolos*/
+/* Inicia NAVBAR*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: brown !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black !important;
+  border-radius: 15px;
+}
+
+/* Cierra NAVBAR*/
+/* Inicia jumbotron*/
+.jumbotron .btn {
+  background-color: brown;
+  border-color: black;
+}
+.jumbotron .btn:hover {
+  background-color: white;
+  color: black;
+  border-color: brown;
+}
+
+/* Cierra jumbotron*/
+/* Inicia Main*/
+main {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+/* Cierra Main*/
+/*inicio formularios */
+form {
+  width: 100%;
+  height: 100vh;
+  background-color: brown;
+  padding: 30px;
+  background-image: url(/multimedia/consultas.jpg);
+  background-position: center;
+  color: white;
+}
+form input, form textarea {
+  width: 100%;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid black;
+}
+form input::placeholder, form textarea::placeholder {
+  color: white;
+}
+form #enviar {
+  background-color: brown;
+  font-size: 25px;
+  border: 4px solid black;
+  padding: 10px;
+}
+
+/*fin formularios*/
+/* Escalada */
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+h2 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.deportiva {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/escalada_deportiva.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+.clasica {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/escalada_clasica.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+.hielo {
+  height: calc(100vh - 80px);
+  background-color: black;
+  background-image: url(multimedia/escalada_en_hielo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+/* Fin Escalada */
+/* Inicia Centros*/
+.card_caba {
+  background-image: url(./multimedia/caba.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card_cacba {
+  background-image: url(./multimedia/cacba.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card_camp {
+  background-image: url(./multimedia/camp.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+/*fin Centros */
+
+/*# sourceMappingURL=estilo.css.map */
+

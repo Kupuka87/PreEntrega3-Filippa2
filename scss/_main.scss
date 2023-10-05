@@ -1,0 +1,18 @@
+/* Inicia Main*/
+
+main {
+  height: calc(100vh - 80px);
+  background-color: $color-fondo-h2;
+  background-image: url(multimedia/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color-letra-h2;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+/* Cierra Main*/

@@ -1,0 +1,23 @@
+/* Inicia NAVBAR*/
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: brown !important;
+  }
+  
+  .nav-link {
+    color: $color-letra-h2 !important;
+  
+    &:hover {
+      background-color: white;
+      color: $color-fondo-h2 !important;
+      border-radius: 15px;
+    }
+  }
+  
+  /* Cierra NAVBAR*/
+  

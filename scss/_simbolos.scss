@@ -1,0 +1,48 @@
+/*Inicia Guias Croquis*/
+
+@mixin fondos{
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 50px;
+
+}
+
+.m_croquis {
+    height: calc(100vh - 80px);
+    background-color: $color-fondo-h2;
+    background-image: url(multimedia/simbologia1.jpg);
+    color: $color-letra-h2;
+    @include fondos;
+  }
+  
+  .modelo_croquis {
+    background-color: rgba(12, 12, 12, 0.37);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #222;
+  }
+  
+  /*Fin Guias Croquis*/
+  
+  /*Inicia Guias Simbolos*/
+  
+  .m_simbolos {
+    height: calc(100vh - 80px);
+    background-color: $color-fondo-h2;
+    background-image: url(multimedia/simbolgia2.jpg);
+    color: $color-letra-h2;
+    @include fondos;
+  
+
+   
+  }
+  
+  .ejemplo_simbolos {
+    background-color: rgba(12, 12, 12, 0.37);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #222;
+  }
+  
+  /*Fin Guias Simbolos*/

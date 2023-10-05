@@ -1,0 +1,61 @@
+/* Escalada */
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  h2 {
+    background-color: $color-fondo-h2;
+    text-align: center;
+    color: $color-letra-h2;
+    padding: 10px;
+  }
+  
+  .deportiva {
+    height: calc(100vh - 80px);
+    background-color: $color-fondo-h2;
+    background-image: url(multimedia/escalada_deportiva.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-letra-h2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 350px;
+  }
+  
+  .clasica {
+    height: calc(100vh - 80px);
+    background-color: $color-fondo-h2;
+    background-image: url(multimedia/escalada_clasica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-letra-h2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 350px;
+  }
+  
+  .hielo {
+    height: calc(100vh - 80px);
+    background-color: $color-fondo-h2;
+    background-image: url(multimedia/escalada_en_hielo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-letra-h2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 350px;
+  }
+  
+  /* Fin Escalada */
+  
